@@ -14,6 +14,7 @@ group :development, :test do
   gem "sqlite3", "1.6.0"
   gem "byebug", "11.0.1", platforms: [:mri, :mingw, :x64_mingw]
   gem "standard"
+  gem "annotate"
 end
 group :development do
   gem "web-console", "4.0.1"
